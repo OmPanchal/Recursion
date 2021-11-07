@@ -35,3 +35,11 @@ print(nth_num)
 
 for i in range(25):
   print(f"NTH TERM:{i} ==> {fibonacci(i)}")
+
+# ~ Factorial of a number - (in one line)
+
+def factorial(n):
+  return n * factorial(n - 1) if n != 1 else n * 1 
+
+
+print(f"Factorial {factorial(10)}")
